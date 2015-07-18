@@ -1,0 +1,74 @@
+/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+html,button,input,select,textarea{color:#222;}
+html{font-size:1em;line-height:1.4;}
+::-moz-selection{background:rgba(133, 188, 78, 0.22);text-shadow:none;}
+::selection{/*color: #fff;*/background-color: rgba(133, 188, 78, 0.22);text-shadow: none;}
+hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0;}
+audio,canvas,img,video{vertical-align:middle;}
+fieldset{border:0;margin:0;padding:0;}
+textarea{resize:vertical; overflow: auto;}
+.clear {clear: both;}
+html, html a { -webkit-font-smoothing: antialiased;}
+
+
+/* Page Styles - 
+   Using Mobile First Approach
+================================ */
+
+* {
+  -moz-box-sizing: border-box;  
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+body {
+  font-style: normal; 
+  font-size: 100%; 
+  font-family: "museo-sans", sans-serif; 
+  color: #222;
+  background-color: rgba(247, 246, 246, 0.5);
+}
+#site-container {
+  max-width: 1300px; 
+  width: 100%; 
+  margin: 0 auto; 
+  background: white; 
+  overflow: hidden; 
+  display: block;
+}
+img {
+  max-width: 100%; 
+  height: auto;
+}
+
+  @media \0screen {
+    img { 
+      width: auto; /* for ie 8 */
+    }
+  }
+
+#site-container {
+  overflow: hidden;
+}
+
+
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print{*{background:transparent !important;color:#000 !important;box-shadow:none !important;text-shadow:none !important;}
+a,a:visited{text-decoration:underline;}
+a[href]:after{content:" (" attr(href) ")";}
+abbr[title]:after{content:" (" attr(title) ")";}
+.ir a:after,a[href^="javascript:"]:after,a[href^="#"]:after{content:"";}
+pre,blockquote{border:1px solid #999;page-break-inside:avoid;}
+thead{display:table-header-group;}
+tr,img{page-break-inside:avoid;}
+img{max-width:100% !important;}
+@page{margin:0.5cm;}
+p,h2,h3{orphans:3;widows:3;}
+h2,h3{page-break-after:avoid;}
+}
