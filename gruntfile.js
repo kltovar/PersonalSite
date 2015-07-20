@@ -76,6 +76,10 @@ module.exports = function(grunt) {
     // start watch
     watch: {
         // yo watch my js changes & update yo self
+        options: {
+            //live-refresh
+            livereload: true,
+        },
         js: {
             // when these files change
             files: ['src/js/*.js'],
