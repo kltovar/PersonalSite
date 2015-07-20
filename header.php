@@ -11,36 +11,27 @@
     <meta name="description" content="<?php echo $metaDescription ?>"></meta>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- html5shiv -->
-	<script src="/_js/vendor/html5shiv.js" async></script>
-	<script src="/_js/vendor/html5shiv-printshiv.js" async></script>
 
     <!-- Pulled Stylesheets -->
-    <link rel="stylesheet" href="/_css/vendor/normalize.css"/>
-  	<link rel="stylesheet" href="/_css/vendor/skeleton.css"/>
-  	<link rel="stylesheet" href="/_css/vendor/animate.min.css"/>
-	<link rel="stylesheet" href="/_css/app.css"/>
-	<link rel="stylesheet" href="/_css/media-queries.css">
-	<!-- Scripts-->
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-	<script src="/_js/smooth-scroll.js" defer="defer"></script>
+    <link rel="stylesheet" href="/css/vendor/normalize.css"/>
+  	<link rel="stylesheet" href="/css/vendor/skeleton.css"/>
+  	<link rel="stylesheet" href="/css/vendor/animate.min.css"/>
+	<link rel="stylesheet" href="/css/app.css"/>
+	<link rel="stylesheet" href="/css/media-queries.css">
 
 	<!-- GA Tracking Codes -->
 
 </head>
 
 <body>
-	
+
 	<!-- Start Site Container -->
 	<section id="site-container">
 
 		<!-- Navigation -->
 		<header>
 			<div>
-				
+
 			</div>
 		</header>
 		<!-- Navigation -->
-
-	
-
